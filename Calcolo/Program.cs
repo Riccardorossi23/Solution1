@@ -5,7 +5,7 @@ namespace matematica
 {
     class Program
     {
-        private static readonly string risposta;
+        private static string risposta;
 
         static void Main(string[] args)
         {
