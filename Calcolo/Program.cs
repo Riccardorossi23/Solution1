@@ -19,12 +19,14 @@ namespace matematica
             double risultato;
             try
             {
-                if (risposta == "A")
+                if (risposta == "somma")
                     risultato = Operazioni.Somma(a, b);
-                else if (risposta == "somma")
+                else if (risposta == "sottrazione")
                     risultato = Operazioni.Sottrazioni(a, b);
                 else if (risposta == "divisione")
                     risultato = Operazioni.Divisione(a, b);
+                else if (risposta == "Moltiplicazione")
+                    risultato = Operazioni.Moltiplicazione(a, b);
                 if (risposta == "potenza")
                     risultato = Operazioni.Potenza(a, b);
 
